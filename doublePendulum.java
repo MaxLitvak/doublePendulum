@@ -44,7 +44,7 @@ public class doublePendulum implements Runnable {
 	private ArrayList<double[]> ball1Points = new ArrayList<double[]>(); // history of where ball1 has been
 	private ArrayList<double[]> ball2Points = new ArrayList<double[]>(); // history of where ball2 has been
 	private int speed = 1; // speed of simulation
-	/*Use tihis line to switch between euler and RK4*/ private boolean isEuler = true; // set equal to true for euler and false for RK4
+	/*Use this line to switch between euler and RK4*/ private boolean isEuler = true; // set equal to true for euler and false for RK4
 
 	public static void main(String[] args) {
 		doublePendulum ex = new doublePendulum();
